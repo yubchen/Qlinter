@@ -1,0 +1,31 @@
+{
+    "ecmaFeatures": {},
+    "parser": "espree",
+    "env": {
+        "browser": false,
+        "node": false,
+        "amd": false,
+        "mocha": false,
+        "jasmine": false
+    },
+
+    "rules": {
+        "qf-brace-style": [2, "1tbs"],
+        "qf-statement-start-newline": 2,
+        "qf-indent": 2,
+        "qf-one-space-after-keywords": 2,
+        "qf-one-space-before-keywords": 2,
+        "qf-space-unary-ops": 2,
+        "qf-space-infix-ops": 2,
+        "qf-no-multi-spaces": 2,
+        "qf-no-spaces-around-dot": 2,
+        "qf-max-len": [2, 120, 4],
+        "qf-line-wrap": 2,
+        "qf-object-key-value-space": 2,
+        "qf-function-head-same-line": 2,
+        "qf-element-closely": 2,
+        "qf-param-space": 2,
+        "qf-space-before-function-name": 2,
+        "qf-no-space-after-function-name": 2
+    }
+}
